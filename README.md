@@ -16,15 +16,14 @@ mkdir copyfiles
 cd ./copyfiles
 mkdir puppeteer
 mkdir puppeteer-reroll
+mv ../lib/puppeteer/puppeteer.js ./puppeteer-reroll
 curl -o ./puppeteer https://raw.githubusercontent.com/NotIvny/yunzai-ImagetoCard-js/main/puppeteer.js
 ```
 2.启动云崽，输入命令
 
-#增加操作puppeteer-reroll,./lib/puppeteer/puppeteer.js,./copyfiles/puppeteer/puppeteer.js
+#增加操作puppeteer-reroll,./copyfiles/puppeteer/puppeteer.js,./lib/puppeteer/puppeteer.js
 
 #增加操作puppeteer,./copyfiles/puppeteer/puppeteer.js,./lib/puppeteer/puppeteer.js
-
-#文件替换puppeteer-reroll
 
 #文件替换puppeteer
 
