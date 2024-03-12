@@ -19,6 +19,7 @@ mkdir puppeteer-reroll
 curl -o ./puppeteer https://raw.githubusercontent.com/NotIvny/yunzai-ImagetoCard-js/main/puppeteer.js
 ```
 2.启动云崽，输入命令
+
 #增加操作puppeteer-reroll,./lib/puppeteer/puppeteer.js,./copyfiles/puppeteer/puppeteer.js
 
 #增加操作puppeteer,./copyfiles/puppeteer/puppeteer.js,./lib/puppeteer/puppeteer.js
