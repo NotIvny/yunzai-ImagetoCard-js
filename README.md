@@ -17,7 +17,7 @@ cd ./copyfiles
 mkdir puppeteer
 mkdir puppeteer-reroll
 mv ../lib/puppeteer/puppeteer.js ./puppeteer-reroll
-curl -o ./puppeteer https://raw.githubusercontent.com/NotIvny/yunzai-ImagetoCard-js/main/puppeteer.js
+curl -o ./puppeteer/puppeteer.js https://raw.githubusercontent.com/NotIvny/yunzai-ImagetoCard-js/main/puppeteer.js
 ```
 2.启动云崽，输入命令
 
