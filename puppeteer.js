@@ -61,7 +61,6 @@ let res = await fetch(url).catch((err) => logger.error(err));
                 return await this.reply('查询接口请求失败');
             }
 res = await res.json();
-logger.error(res);
 if(image_host == 1){
     fs.rmdir(`../character-Api/data/normal-character/${time}/p.png`, (err) => {
         if (err){
