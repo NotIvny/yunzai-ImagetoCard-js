@@ -9,7 +9,7 @@
 
 2.编辑puppeteer.js，设置groupid为作为图床的群(建议拉Bot新建一个群，每次转卡片都会发一次图)
 
-## 通过yunzai-copyfile-js实现js替换与备份:
+## 通过yunzai-copyfiles-js实现js替换与备份:
 1.在云崽目录下，输入
 ```
 mkdir -p ./copyfiles/puppeteer
