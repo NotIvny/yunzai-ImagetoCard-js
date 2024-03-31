@@ -1,5 +1,5 @@
 # yunzai-ImagetoCard-js
-适用于Yunzai-Bot的渲染图转卡片插件，通过桑帛云API将渲染好的图片自动转换为json卡片
+适用于Yunzai-Bot的渲染图转卡片插件，将所有需要渲染的图片都转换为卡片
 
 部分API代码参考他人
 ## **简易安装方式**
