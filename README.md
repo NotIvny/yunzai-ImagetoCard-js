@@ -12,9 +12,8 @@
 ## 通过yunzai-copyfile-js实现js替换与备份:
 1.在云崽目录下，输入
 ```
-mkdir copyfiles
+mkdir -p ./copyfiles/puppeteer
 cd ./copyfiles
-mkdir puppeteer
 mkdir puppeteer-reroll
 mv ../lib/puppeteer/puppeteer.js ./puppeteer-reroll
 curl -o ./puppeteer/puppeteer.js https://raw.githubusercontent.com/NotIvny/yunzai-ImagetoCard-js/main/puppeteer.js
@@ -27,9 +26,19 @@ curl -o ./puppeteer/puppeteer.js https://raw.githubusercontent.com/NotIvny/yunza
 
 #文件替换puppeteer
 
-## 使用本地图床:
-1.下载js插件，替换./lib/puppeteer/puppeteer.js
+## 通过Miao-Plugin-MBT代替腾讯图床
+1. 下载js插件，替换./lib/puppeteer/puppeteer.js
 
-2.在云崽同级目录下，安装https://github.com/Zyy955/character-Api （咕咕牛图仓无需克隆），并启动咕咕牛图库
+2. 在与云崽同级目录下，克隆面板图API插件
+```
+git clone https://github.com/Zyy955/character-Api
+cd ./character-Api
+mkdir -p ./data/normal-character
+```
+3. 启动API
+```
+node app
+```
+4.编辑puppeteer.js，配置character_api，设置image_host = 1
 
-3.编辑puppeteer.js，配置character_api，设置image_host = 1
+
